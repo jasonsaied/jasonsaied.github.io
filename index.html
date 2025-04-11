@@ -1,1 +1,139 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #999;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33.3333333%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+
+#Research {background-color: white;}
+#Teaching {background-color: white;}
+#Service {background-color: white;}
+</style>
+</head>
+<body>
+<!-- 33FFE0  E4E2FE    tab background was #555   E8E7F9 DEDDF9-->
+
+<button class="tablink" onclick="openPage('Research', this, 'white')" id="defaultOpen">Research</button>
+<button class="tablink" onclick="openPage('Teaching', this, 'white')">Teaching</button>
+<button class="tablink" onclick="openPage('Service', this, 'white')">Service</button>
+
+<div id="Research" class="tabcontent">
+<h1>Jason Saied</h1>
+
+	<HR>
+
+	I am a Research Computer Scientist at NASA Ames Research Center. I work on quantum computing with the Quantum Artificial Intelligence Laboratory (QuAIL). <br>
+	Email: <a href="mailto:jason.saied@nasa.gov">jason.saied@nasa.gov</a>. 
+	<HR>
+
+	PhD obtained in May 2022 <br>
+	Rutgers University&mdash;New Brunswick<br>
+	Advisor: <a href="https://sites.math.rutgers.edu/~sahi/">Siddhartha Sahi</a>
+	
+	<HR>
+
+  <h2>Research Interests</h2>
+  My current research interests are in quantum computing. A more detailed description will be coming soon. 
+  
+  <br><br>My thesis was in algebraic combinatorics and representation theory. For a more detailed description, see <a href="Research Statement.pdf">my academic research statement</a>. 
+  <br><br>My thesis research applies a result of Ram and Yip to give a combinatorial formula for SSV polynomials, a simultaneous generalization of Macdonald polynomials and metaplectic Whittaker functions discovered by Sahi, Stokman, and Venkateswaran. Here is the resulting paper, published in Advances in Mathematics: 
+  
+	<a href="https://www.sciencedirect.com/science/article/abs/pii/S0001870822002572"><h4>A combinatorial formula for Sahi, Stokman, and Venkateswaran's generalization of Macdonald polynomials</h4></a>
+	 
+	 Here is the <a href="https://arxiv.org/abs/2006.15086">arXiv version</a> (not fully updated). 
+	 
+	 Recordings of my talks on this work can be found <a href="https://youtu.be/0elW07Wh8j0">here</a> and <a href="https://www.youtube.com/watch?v=mg-iPbgu9Lc">here</a>. 
+</div>
+
+<div id="Teaching" class="tabcontent">
+  <h3>Courses taught (with links to evaluations where available):</h3>
+  <ul>
+  <li><h4>Math 477: Mathematical Theory of Probability. Teaching Assistant. Spring 2021. </h4></li>
+  <li><h4>Math 151: Calculus I for the Mathematical and Physical Sciences. Teaching Assistant. <a href="teaching/Fall 2020 evals.pdf">Fall 2020</a>, Fall 2017 (Sections <a href="teaching/SIRS_Fall-2017_01_640_151_25-Saied_Jason-jjs435.html">25</a>, <a href="teaching/SIRS_Fall-2017_01_640_151_26-Saied_Jason-jjs435.html">26</a>, <a href="teaching/SIRS_Fall-2017_01_640_151_27-Saied_Jason-jjs435.html">27</a>). </h4></li>
+  <li><h4>Math 250: Introductory Linear Algebra. Instructor of record. <a href="teaching/Summer 2019 evals.pdf">Summer 2019</a>, <a href="teaching/SIRS_Summer-2018_01_640_250_H6-Saied_Jason-jjs435.html">Summer 2018</a>, <a href="https://www.reddit.com/r/rutgers/comments/br56r7/math_250_with_jason_saied/">Reddit post</a>.</h4></li>
+  <li><h4>Math 250: Introductory Linear Algebra. Teaching Assistant. Spring 2019, Spring 2018 (Sections <a href="teaching/SIRS_Spring-2018_01_640_250_C1-Saied_Jason-jjs435.html">C1</a>, <a href="teaching/SIRS_Spring-2018_01_640_250_C3-Saied_Jason-jjs435.html">C3</a>). </h4></li>
+  <li><h4>Math 152: Calculus II for the Mathematical and Physical Sciences. Teaching Assistant. Fall 2018 (Sections <a href="teaching/SIRS_Fall-2018_01_640_152_10-Saied_Jason-jjs435.html">10</a>, <a href="teaching/SIRS_Fall-2018_01_640_152_11-Saied_Jason-jjs435.html">11</a>, <a href="teaching/SIRS_Fall-2018_01_640_152_12-Saied_Jason-jjs435.html">12</a>). </h4></li>
+</ul>
+<HR>
+<h3>Other teaching experiences:</h3>
+<ul>
+<li><h4><a href = "http://archive.dimacs.rutgers.edu/ysp/">Rutgers Young Scholars Program</a>. Instructor, Graph Theory. Summer 2019, Summer 2018.</h4></li>
+<li><h4><a href="http://www.mathily.org/">MathILy</a>. Apprentice Instructor. Summer 2017.</h4></li>
+</ul>
+<!--<HR>
+<h3><a href="teaching/Teaching_Statement.pdf">Teaching Statement</a></h3>-->
+
+</div>
+
+<div id="Service" class="tabcontent">
+
+	<a href="https://sites.math.rutgers.edu/~sz446/GARTS/"><h3>Graduate Algebra and Representation Theory Seminar (GARTS)</h3></a>
+	
+	<a href="https://www.math.rutgers.edu/academics/undergraduate/directed-reading-program"><h3>Directed Reading Program (DRP)</h3></a>	
+	
+	<a href="https://www.erdosinstitute.org/invitations-to-industry"><h3>Invitations to Industry</h3></a>
+	
+	<a href="https://www.math.rutgers.edu/people/department-committees-and-service-activities"><h3>Graduate Student&mdash;Faculty Liaison Committee</h3></a>
+	
+	<a href="https://sites.math.rutgers.edu/~ah1112/pizza/"><h3>Graduate Student Pizza Seminar</h3></a>
+	
+	
+	
+	<hr />
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
+
